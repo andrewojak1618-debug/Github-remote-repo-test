@@ -1,0 +1,25 @@
+git init = Git Ordner erstellen
+git status = zeigt uns den bisherigen status
+git add - notes.txt - = speichert die Datei 
+git commit -m "notes.txt added" = gespeichert im resposetory
+git add . = speichert alle Dateien
+git push -u origin master = Laden alle Datei auf Github
+(wenn Berächtigung fehlschlägt und nicht funktioniert : 
+The requested URL returned error: 403, dann: 
+Token erstellen in settings auf Github.
+- Repository access - Only select repositories, wählen. Eigenen account wählen.
+Permissions Kategorie den Bereich Contens wählen, 
+auf Access: Read an write, einstellen.
+Token generieren und kopieren  "am besten in Notizen".
+VsCode öffnen und den Befehl eingeben:
+git push -u https://*TOKEN@github.com/*REPO URL master 
+*TOKEN - 
+in diesem bereich kommt dein gespeicherter TOKEN rein mit einer @ Verbindung.
+*REPO URL -
+in diesem Bereich kommt die URL hinein, die oben im Browser steht, bei dem 
+fertig erstellten Repo auf Github.
+Dann in VsCode bestätigen.
+Den generierten Tempcode von VsCode kopieren.
+Beim code "push -u" ersetzen in "remote set-url origin" und master entfernen.
+Eingabe in Vscode: git remote set-url -hier den code einfügen.
+Dann den Befehl : git push origin master )
