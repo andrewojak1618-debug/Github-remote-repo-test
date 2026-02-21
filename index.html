@@ -1,0 +1,33 @@
+remote: Write access to repository not granted.
+fatal: unable to access 'https://github.com/thevysh/demo-repo.git/':
+The requested URL returned error: 403
+
+D:\Temp\DemoRepo>git push -u https://github_pat_11AEJ3PDY08tflFCTVaUEa_pVBAqONOMwiwVTBuheyL05jformVuJxpl2XE3mJnykwLJQQ2V
+EF50T1Jfak@github.com/thevysh/demo-repo master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 259 bytes | 259.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/thevysh/demo-repo
+1785a2d .. 1638639 master -> master
+branch 'master' set up to track 'https://github_pat_11AEJ3PDY08tflFCTVaUEa_pVBAqONOMwiwVTBuheyL05jformVuJxpl2XE3mJnykwLJ
+QQ2VEF50T1Jfak@github.com/thevysh/demo-repo/master'.
+
+D:\Temp\DemoRepo>git remote set-url https://github_pat_11AEJ3PDY08tflFCTVaUEa_pVBAq0NOMwiwVTBuheyL05j formVuJxpl2XE3mJnyk
+wLJQQ2VEF50T1Jfak@github.com/thevysh/demo-repo
+usage: git remote set-url [ -- push] <name> <newurl> [<oldurl>]
+or: git remote set-url -- add <name> <newurl>
+or: git remote set-url -- delete <name> <url>
+
+-- [no-]push
+-- [no-]add
+-- [no-]delete
+
+manipulate push URLS
+add URL
+delete URLS
+
+D: \Temp\DemoRepo>git remote set-url origin https://github_pat_11AEJ3PDY08tflFCTVaUEa_pVBAqONOMwiwVTBuheyL05j formVuJxpl2X
+E3mJnykwLJQQ2VEF50T1Jfak@github.com/thevysh/demo-repo
+
+D:\Temp\DemoRepo>git push -u origin master
